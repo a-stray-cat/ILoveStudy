@@ -1,0 +1,36 @@
+<!--miniprogram/pages/mine.wxml-->
+
+<view class="head">
+	<image class="Avatar" src="{{avatarUrl}}"></image>
+	<text class="name">{{nickName}}</text>
+</view>
+
+<view class="body">
+	<view class="user" bindtap="userinfo">
+		<image class="user-icon" src=""></image>
+		<text class="text-user">个人信息</text>
+	</view>
+  <view class="user">
+		<image class="user-icon" src=""></image>
+		<text class="text-user">个人信息</text>
+	</view>
+  <view class="user">
+		<image class="user-icon" src=""></image>
+		<text class="text-user">个人信息</text>
+	</view>
+  <view class="user">
+		<image class="user-icon" src=""></image>
+		<text class="text-user">个人信息</text>
+	</view>
+  <view class="user">
+		<image class="user-icon" src=""></image>
+		<text class="text-user">个人信息</text>
+	</view>
+  <view class="user">
+		<image class="user-icon" src=""></image>
+		<text class="text-user">个人信息</text>
+	</view>
+</view>
+
+<view class="foot">
+</view>

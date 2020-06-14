@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="header">
+	<image class="background" />
+	<view class="camera">
+		<image src="../../images/相机.png" />
+	</view>
+</view>
+
+<view class="content">
+	<view class="onlinebank" bindtap="bindtaponlinebank">
+		<image src="../../images/作业本.png"></image>
+		<view>在线题库</view>
+	</view>
+	<view class="localbank" bindtap="bindtaplocalbank">
+		<image src="../../images/作业本.png"></image>
+		<view>本地题库</view>
+	</view>
+</view>
+
+<view class="foot">
+
+</view>

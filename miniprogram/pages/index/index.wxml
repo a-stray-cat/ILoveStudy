@@ -1,0 +1,8 @@
+<view class="header">
+	<view>学习使我快乐</view>
+	<image class="wave" src="../../images/wave.gif"></image>
+	<!-- <wave waveNum="1" waveStatus='true' background='#339933' /> -->
+</view>
+<view class="foot">
+	<button bindtap="bindtaphp" class="button">今日份快乐</button>
+</view>

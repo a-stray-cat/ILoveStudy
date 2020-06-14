@@ -1,0 +1,28 @@
+.header view {
+  /* font-style: italic; */
+  font-size: larger;
+  font-family: KaiTi;
+  color: white;
+  text-align: center;
+  margin-top: 15vh;
+}
+.header {
+  position: relative;
+  height: 40vh;
+  background: linear-gradient(to bottom, #339933, #287728);
+}
+.wave {
+  position: absolute;
+  left: 0;
+  bottom: -2rpx;
+  width: 100%;
+  mix-blend-mode: screen;
+  height: 100rpx;
+}
+.foot button {
+  width: 50vw;
+  top: 20vh;
+  color: white;
+  font-family: KaiTi;
+  background-color: #339933;
+}

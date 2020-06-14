@@ -1,0 +1,43 @@
+/* miniprogram/pages/mine.wxss */
+.head{
+  background-color: #339933;
+  width: 100vw;
+  height: 30vh;
+}
+.Avatar{
+  width: 25vw;
+  height: 15vh; 
+  border-radius: 50%;
+  border: 3px solid white;
+}
+.name{
+  position: relative;
+  left: 28vw;
+  top: -14vw;
+
+}
+.body{
+  width: 100vw;
+  height: 50vh;
+
+}
+.user{
+  width: 100vw;
+  height: 8vh;
+  background-color: rgb(242, 245, 245);
+  border-bottom: 2px solid #b1b6b1;
+
+}
+.user-icon{
+width: 10vw;
+height: 6.5vh;
+position: relative;
+left: 10vw;
+top: 1vh;
+
+}
+.text-user{
+  position: relative;
+  left: 40vw;
+  bottom: 3vw;
+}

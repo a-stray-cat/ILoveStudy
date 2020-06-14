@@ -1,0 +1,70 @@
+page {
+  background: #E0E0E0;
+}
+.header {
+  width: 100vw;
+  height: 55vh;
+  /* border: 1px solid white; */
+}
+.header .background {
+  width: 100vw;
+  height: 60vh;
+  position: absolute;
+  border-radius: 0% 0% 30% 30%;
+  background-color: #339933;
+  z-index: -1;
+}
+.header .camera image {
+  width: 25vw;
+  height: 25vh;
+  left: 36.8vw;
+  top: 14vh;
+  position: fixed;
+}
+.content {
+  width: 90vw;
+  height: 10vh;
+  margin-left: 5vw;
+  margin-top: -5vh;
+  background-color: white;
+  border: 1px solid #E0E0E0;
+  border-radius: 10px;
+  z-index: 1;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.onlinebank {
+  margin-top: 1vh;
+  margin-left: 5vw;
+}
+.onlinebank image {
+  margin-left: 8rpx;
+  width: 60rpx;
+  height: 60rpx;
+}
+.onlinebank view {
+  font-size: 20rpx;
+  text-align: center;
+}
+ .localbank {
+   margin-top: 1vh;
+   margin-left: 5vw;
+ }
+.localbank image {
+  margin-left: 8rpx;
+  width: 60rpx;
+  height: 60rpx;
+}
+.localbank view {
+  font-size: 20rpx;
+  text-align: center;
+}
+
+.foot {
+  margin-top: -2vh;
+  width: 100vw;
+  height: 42vh;
+  background-color: #E0E0E0;
+  /* border: 1px solid white; */
+  border-radius: 10px;
+}
